@@ -62,3 +62,7 @@ Disclosure: I'm the developer of [Remove AI Meta](https://removeaimeta.com). It 
 ## License
 
 CC0. Corrections welcome via PR.
+
+## See also
+
+- [Featured on: third-party pages that mention our tools](https://kibovrwa.github.io/featured-on/)
