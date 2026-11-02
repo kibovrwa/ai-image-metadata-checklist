@@ -57,7 +57,7 @@ PDFs: exiftool's PDF edits are appended as an incremental update and are reversi
 
 ## Browser option
 
-Disclosure: I'm the developer of [Remove AI Meta](https://removeaimeta.com). It does the inspect → strip → re-scan loop in the browser, without uploading the file, for JPEG, PNG, WebP, HEIC/AVIF and others, plus a separate PDF metadata page. One file is free; Pro is $9.99 one-time. It has the same limits listed above. exiftool remains the free, scriptable choice.
+Disclosure: I'm the developer of [remove AI metadata](https://removeaimeta.com/). It does the inspect → strip → re-scan loop in the browser, without uploading the file, for JPEG, PNG, WebP, HEIC/AVIF and others, plus a separate PDF metadata page. One file is free; Pro is $9.99 one-time. It has the same limits listed above. exiftool remains the free, scriptable choice.
 
 ## License
 
