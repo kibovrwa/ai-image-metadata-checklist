@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to strip metadata from photos on your own computer</title>
+<meta name="description" content="Photos often store camera settings, GPS coordinates, and edit history in EXIF, XMP, IPTC, and C2PA metadata. Here is what that means and how to remove it from a copy.">
+<style>
+body{font:17px/1.65 Georgia,serif;max-width:680px;margin:40px auto;padding:0 20px;color:#222;background:#faf8f4}
+h1{font-size:1.8em;line-height:1.25}
+h2{font-size:1.2em;margin-top:1.6em}
+a{color:#8b4513}
+</style>
+</head>
+<body>
+<main>
+<h1>How to strip metadata from photos on your own computer</h1>
+<p>A photo file usually holds more than the picture. Cameras and phones write hidden fields into the same file: when and where it was taken, the lens and settings, a serial number, and sometimes a history of edits. If the image was made or labeled by a generator, it may also carry C2PA content credentials or XMP/PNG text with a prompt, model name, or seed.</p>
+<h2>What is typically stored</h2>
+<p>EXIF holds camera, lens, exposure, date, and often GPS. IPTC and XMP can hold captions, keywords, creator fields, and rights labels. C2PA is a signed manifest that some apps attach to show how the file was produced. None of this is visible on the image itself, but it travels with the file when you upload or send it.</p>
+<h2>How to check and remove it</h2>
+<p>On a computer, exiftool can print those fields and write a cleaned copy. The important part is to work on a copy, not the original. After stripping, open the new file again and confirm GPS, camera serials, and any C2PA or XMP packets are gone.</p>
+<p>If you would rather do this in the browser, on a copy, without uploading the original, <a href="https://removeaimeta.com/">Remove AI Meta</a> removes embedded EXIF, GPS, XMP, C2PA, and IPTC metadata. It is free for one image, and $9.99 one-time for batch use.</p>
+<p>Disclosure: I made this tool.</p>
+</main>
+</body>
+</html>
